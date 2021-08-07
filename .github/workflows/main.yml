@@ -31,7 +31,7 @@ jobs:
        uses: SamKirkland/FTP-Deploy-Action@4.0.0
        with:
           # ftp server
-          server: ftps://waws-prod-dm1-209.ftp.azurewebsites.windows.net/site/wwwroot
+          server: waws-prod-dm1-209.ftp.azurewebsites.windows.net
           # ftp username
           username: anascoding\$anascoding
           # ftp password
