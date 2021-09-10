@@ -2,8 +2,7 @@
   position: fixed;
   width: 100%;
   z-index: 1000;
-  background: #000;
-  background: #fff;
+  background: #333;
   box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
 
   &__content {
@@ -46,7 +45,7 @@
     font-size: 1.8rem;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333;
+    color: #fff;
     letter-spacing: 1px;
   }
   &__links {
@@ -59,7 +58,7 @@
     padding: 2.2rem 3rem;
     display: inline-block;
     font-size: 1.6rem;
-    color: #333;
+    color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
@@ -84,7 +83,7 @@
   }
 
   &__sm-menu {
-    background: #fff;
+    background: #333;
     position: absolute;
     width: 100%;
     top: 100%;
