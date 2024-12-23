@@ -1,5 +1,5 @@
 ---
-title                 : "Welcome"
+title                 : "Ana's personal website"
 disableTitleSeparator : true
 ---
 
