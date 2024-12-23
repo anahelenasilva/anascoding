@@ -1,3 +1,173 @@
-baseURL = 'https://example.org/'
+baseURL = '/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'anascoding'
+
+theme = "color-your-world"
+
+enableEmoji = true
+enableInlineShortcodes = true
+
+[pagination]
+  pagerSize = 3
+
+[server]
+  [[server.headers]]
+    for = '/**'
+    [server.headers.values]
+      Content-Security-Policy = 'script-src localhost:1313'
+      Referrer-Policy = 'strict-origin-when-cross-origin'
+      X-Content-Type-Options = 'nosniff'
+      X-Frame-Options = 'DENY'
+      X-XSS-Protection = '1; mode=block'
+
+
+[markup.highlight]
+  # To make use of the custom Chroma, this should be false
+  # The default is true
+  noClasses = false
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)'], ['$ ', ' $']]
+
+[params]
+  # Site description
+  description = "Ana's personal website"
+  
+  # Footer text
+  # Each value will become a paragraph
+  # Keep it as an array
+  footerText = [ "Generated with [Hugo](https://gohugo.io) using the [Color Your World](https://gitlab.com/rmaguiar/hugo-theme-color-your-world) theme." ]
+ 
+  # Shows a message in the footer about JavaScript being disabled
+  # The default is false
+  hasNoscriptNotice = true
+  
+  # Default path for images in posts
+  # ie.: "content/some-post/img"
+  # Can also be set PER PAGE
+  # It can be used to reduce repetition
+  # There's no default value
+  imgPath = "img"
+  
+  # Default classes for markup image 
+  # Modifies the default behavior of images placed via markdown
+  # Can also be set PER PAGE via front matter
+  # Available classes are: border and borderless
+  # There's no default value
+  markupImgClass = ""
+  
+  # This will append a separator (of your choice) along the site title to your <title>
+  # ie.: | ❚ - – — • ⚫ 
+  # You can disabled it PER PAGE by using "disableTitleSeparator" at front
+  # matter or disable it entirely by commenting the line below
+  titleSeparator = "|"
+
+  # Author
+  [params.author]
+    name         = "Ana Helena"
+    description  = "Software Engineer"
+
+  [params.style]
+    # Dark mode as default
+    # User preferences (site/system settings) will still have priority over it
+    # The default is false
+    isDark = true
+
+    # Disable the use of system settings (prefers-color-scheme)
+    # The default is false
+    ignoreSystemSettings = false
+
+    # Accent colors for dark and light mode respectively
+    darkAccent   = "#1dbc91" # Default is "#1dbc91"
+    lightAccent  = "#1f676b" # Default is "#1f676b"
+
+    # More colors, pick as many as you want (not really sure if there's a limit)
+    # Apparently these may not show up on every modern browser (ie. Firefox)
+    # There's no default value. Used here just as example
+    presets = [ "#1f676b" ]
+
+    # Use an icon or text for footnote return links
+    # The default is false
+    hasIconAsFootnoteReturnLink = true
+    
+    # For the social shortcode
+    # Use flexbox (with flex-grow) or grid (equal width)
+    # The default is false
+    socialIsFlex = false
+    
+    # Keep anchor links hidden until it's focused/hovered
+    # The default is false
+    hideAnchors = true
+    
+    # To make use of the custom Chroma, this should be true
+    # and "noClasses" (at markup.highlight) should be false
+    # The default is true
+    useCustomChroma = true
+
+    # CSS animation transition when changing colors
+    # The default is ".5s ease"
+    changeTransition = ".3s ease"
+    
+    
+  # For a simple 404
+  [params.notFound]
+    title         = "Page not found"
+    description   = "This page was not found."
+    paragraph     = "Nothing to see here, buddy."
+    
+  [params.social.centralized]
+    github        = [ "anahelenasilva" ]
+    linkedin      = [ "anahelenasilva" ]
+    #entry         = [ "anahelenasilva", "label (optional)" ]
+    
+[privacy]
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
+
+
+[languages]
+  [languages.en]
+    languageName = "English"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        name = "About"
+        weight = 1
+        url = "about/"
+
+      [[languages.en.menu.main]]
+        name = "Blog"
+        weight = 2
+        url = "https://anasblog.com/"
+      
+      [[languages.en.menu.main]]
+        name = "Contact"
+        weight = 3
+        url = "contact/"
