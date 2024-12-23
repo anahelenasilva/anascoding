@@ -1,5 +1,3 @@
 # anascoding
 
-This is my personal website. It was built using Hugo, using the [Color Your World](https://gitlab.com/rmaguiar/hugo-theme-color-your-world) theme.
-
-It's hosted on hostinger.com.
+This is my personal website. It was generated using [Hugo](https://gohugo.io), using the [Color Your World](https://gitlab.com/rmaguiar/hugo-theme-color-your-world) theme, and it's hosted on hostinger.com.
