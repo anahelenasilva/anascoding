@@ -12,4 +12,4 @@ I've been a developer since I was 18 years old, when I had my first intership wh
 
 I'm working as a Tech Lead since Oct-2023 for a fintech company, with a 5 people team, including: 2 backend developers, 1 mobile developer, 1 product manager and 1 product designer. I work very close to the PM and the PD, since we decide together what are the team's next steps, along with the company's big picture. I've learned A LOT about this role and about myself in just one year. It's been quite a journey.
 
-Feel free to reach out :)
+Feel free to reach out :D
