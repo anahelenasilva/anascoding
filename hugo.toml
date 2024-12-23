@@ -2,7 +2,7 @@ baseURL = '/'
 languageCode = 'en-us'
 title = 'anascoding'
 
-theme = "color-your-world"
+theme = "hugo-theme-color-your-world"
 
 enableEmoji = true
 enableInlineShortcodes = true
