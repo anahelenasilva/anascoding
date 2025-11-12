@@ -6,7 +6,7 @@ sitemapExclude: true
 
 Hey! 👋
 
-I'm Ana, a 31 years old Software Engineer, born, raised and living in Brazil.
+I'm Ana, a 32 years old Software Engineer, born, raised and living in Brazil.
 
 TL;DR: I've been a developer for 13 years, working mostly with Javascript/Typescript and NodeJS. Currently, I'm working as a Senior Software Engineer at PicPay, one of the biggest fintechs in Brazil, working with Golang, AWS and microservices architecture. TS is my main stack, but I'm learning Go and really liking it so far.
 
@@ -14,7 +14,9 @@ I've been a developer since I was 18 years old, when I had my first intership wh
 
 I've worked as a Tech Lead from Oct-2023 to Feb-2025 for a fintech company, with a 5 people team, including: 2 backend developers, 1 mobile developer, 1 product manager and 1 product designer. I work very close to the PM and the PD, since we decided together what were the team's next steps, along with the company's big picture. I've learned A LOT about this role and about myself during this time. It was quite a journey.
 
-Now, I'm currently working as a Senior Software Engineer at PicpPay, one of the biggest fintechs in Brazil, where I work with a very talented team, building PicPay's chat platform, using Golang, AWS and microservices architecture. It's been a great experience so far, and I'm learning a lot with this new stack.
+I've also worked as a Senior Software Engineer at PicPay, one of the biggest fintechs in Brazil, where I worked with a very talented team, building PicPay's chat platform, using Golang, AWS and microservices architecture. It's been a great experience, and I learned a lot with this new stack.
+
+I'm currently working as Senior Software Engineer at Clutch, a company that specializes in transforming Credit Unions into forward-thinking FinTechs. Here, I'm building Clutch's backend using NodeJS, Typescript and AWS.
 
 I started this blog after I watched [NetworkChuck's video](https://youtu.be/dnE7c0ELEH8?si=OR3-2j_nPOZx4Qdn) about why he started a blog and why should we. It's also a way to put myself out there in the web and a way to share what I learn. Besides, it'll probably make me learn things in a different way, since I need to write what I'm learning and what I'm thinking at the moment.
 
