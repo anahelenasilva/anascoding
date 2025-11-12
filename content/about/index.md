@@ -8,7 +8,7 @@ Hey! 👋
 
 I'm Ana, a 32 years old Software Engineer, born, raised and living in Brazil.
 
-TL;DR: I've been a developer for 13 years, working mostly with Javascript/Typescript and NodeJS. Currently, I'm working as a Senior Software Engineer at PicPay, one of the biggest fintechs in Brazil, working with Golang, AWS and microservices architecture. TS is my main stack, but I'm learning Go and really liking it so far.
+TL;DR: I've been a developer for 13 years, working mostly with Javascript/Typescript and NodeJS. Currently, I'm working as a Senior Software Engineer at Clutch.
 
 I've been a developer since I was 18 years old, when I had my first intership while still in college. At this intership, I worked with C# and the .NET framework ecosystem, which I worked for 8 years, along with other stacks like Javascript (only with html and css, not in the server yet) and a little bit of Angular. After that, I started working more with Javascript in the backend, using Typescript and NodeJS, which has been my main focus for the last 5 years. I've also been working with GraphQL (and REST, of course), AWS as the main cloud provider, which I've learned a lot by working mostly with DynamoDB, SQS and Lambdas.
 
